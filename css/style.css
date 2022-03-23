@@ -96,7 +96,8 @@ body {
 
 /*My work experience section  */
 .My-work-experience-company {
-  color: #fb6d3a;
+  /* color: #fb6d3a; */
+  color: #000000;
 }
 .My-work-experience-position {
   font-style: normal;
@@ -104,6 +105,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 10px 0;
+  color: #fb6d3a;
 }
 .My-work-experience-period {
   font-style: normal;

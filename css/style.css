@@ -6,9 +6,9 @@ body {
 .Main-conteiner {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  /* width: 1200px; */
   background: #e9dfd2;
-  margin: 40px auto;
+  /* margin: 40px auto; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,7 +49,8 @@ body {
   margin: 0 0 25 0;
 }
 .abowt-me-description {
-  width: 400px;
+  width: auto;
+  text-align: justify;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -166,18 +167,20 @@ body {
   /* background-color: #63666f; */
   /* background-color: #a4a9bd; */
   background-color: #b2c3bd;
-
-  width: 40%;
+  width: 650px;
   /* width: 370px; */
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 .Sidebar-photo {
   width: 100%;
   border-radius: 50%;
 }
 .Contact-section,
-.Tech-Skills-section {
-  margin: 50px 0 0 40px;
+.Tech-Skills-section,
+.Soft-Skills-section,
+.Languages-section {
+  width: 100%;
+  margin-top: 50px;
 }
 .Sidebar-title {
   font-style: normal;
@@ -220,9 +223,4 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-}
-
-/* Soft-Skills section */
-.Soft-Skills-section {
-  margin: 45px 0 0 40px;
 }

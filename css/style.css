@@ -36,11 +36,12 @@ p {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #000;
+    /* color: #000; */
+    color: #fb6d3a;
     margin: 0 0 10px 0;
   }
 
-  .abowt-me-name {
+  .Abowt-me-name {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -48,7 +49,7 @@ p {
     color: #000;
     margin: 0 0 20px 0;
   }
-  .abowt-me-description {
+  .Abowt-me-description {
     width: auto;
     text-align: justify;
     font-style: normal;
@@ -260,7 +261,7 @@ p {
     margin: 0 0 20px 0;
   }
 
-  .abowt-me-description {
+  .Abowt-me-description {
     text-align: justify;
   }
 
@@ -324,7 +325,7 @@ p {
   /* } */
   .Main-content-sections {
     width: 70%;
-    padding: 100px 50px;
+    padding: 40px 50px;
   }
 
   .Main-content-title {
@@ -345,11 +346,12 @@ p {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #000;
+    /* color: #000; */
+
     margin: 0 0 20px 0;
   }
 
-  .abowt-me-name {
+  .Abowt-me-name {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -357,7 +359,7 @@ p {
     color: #000;
     margin: 0 0 25px 0;
   }
-  .abowt-me-description {
+  .Abowt-me-description {
     width: auto;
     text-align: justify;
     font-style: normal;

@@ -383,6 +383,9 @@ p {
     font-weight: bold;
   }
   .My-projects-link {
+    display: inline;
+    /* display: flex;
+    flex-direction: row; */
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

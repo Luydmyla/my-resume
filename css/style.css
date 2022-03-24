@@ -50,7 +50,7 @@ p {
   }
   .abowt-me-description {
     width: auto;
-    /* text-align: justify; */
+    text-align: justify;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -100,6 +100,8 @@ p {
     /* color: #000000; */
   }
   .My-work-experience-position {
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -171,7 +173,7 @@ p {
     display: flex;
     flex-direction: column;
     align-content: center;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: #63666f; */
     /* background-color: #a4a9bd; */
     background-color: #c3cae7;
@@ -182,7 +184,7 @@ p {
   }
   .Sidebar-photo {
     max-width: 220px;
-    border-radius: 50%;
+    border-radius: 25%;
   }
   .Contact-section,
   .Tech-Skills-section,
@@ -274,10 +276,7 @@ p {
   }
 
   /*My work experience section  */
-  .My-work-experience-position {
-    display: flex;
-    flex-direction: column;
-  }
+
   .My-work-experience-duties {
     text-align: justify;
     padding: 0 20px 0 15px;
@@ -290,7 +289,6 @@ p {
 
   /*Sidebar section  */
   .Sidebar-sections {
-    align-items: center;
     width: 30%;
   }
 

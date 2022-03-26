@@ -384,7 +384,7 @@ p {
     margin-bottom: 10px;
   }
   .My-projects-link {
-    display: inline;
+    display: inline-block;
     /* display: flex;
     flex-direction: row; */
     font-style: normal;

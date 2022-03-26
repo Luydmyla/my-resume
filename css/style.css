@@ -384,7 +384,7 @@ p {
     margin-bottom: 10px;
   }
   .My-projects-link {
-    display: inline-block;
+    display: block;
     /* display: flex;
     flex-direction: row; */
     font-style: normal;
@@ -395,6 +395,7 @@ p {
     /* color: #000; */
   }
   .My-projects-text {
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -491,16 +492,17 @@ p {
     align-content: center;
     align-items: center;
     /* background-color: #63666f; */
-    /* background-color: #a4a9bd; */
-    background-color: #c3cae7;
-    /* background-color: #b2c3bd; */
+    background-color: #a4a9bd;
+    /* background-color: #c3cae7; */
+    background-color: #b2c3bd;
     width: 30%;
     /* width: 370px; */
     padding: 40px 30px;
   }
   .Sidebar-photo {
     width: 80%;
-    border-radius: 50%;
+    border-radius: 25%;
+    margin-bottom: 20px;
   }
   .Contact-section,
   .Tech-Skills-section,

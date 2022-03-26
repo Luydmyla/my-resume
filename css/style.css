@@ -543,9 +543,12 @@ p {
   }
 
   /* Tech-Skills section */
+  .Tech-Skills-wrap {
+    display: flex;
+  }
   .Tech-Skills-list {
     padding: 0 0 0 20px;
-    margin: 0 0 10px 0;
+    margin: 0 10px 10px 0;
   }
   .Tech-Skills-item {
     color: #fb6d3a;

@@ -7,6 +7,9 @@ h3,
 p {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 @media screen and (min-width: 320px) {
   .Main-conteiner {
     min-width: 320px;
@@ -20,7 +23,7 @@ p {
   .Main-content-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 22px;
     color: #000000;
     margin-bottom: 10px;
@@ -78,6 +81,7 @@ p {
     font-size: 16px;
     line-height: 22px;
     color: #595959;
+    /* color: #fb6d3a; */
   }
   .My-projects-text {
     font-style: normal;
@@ -313,7 +317,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .Main-conteiner {
-    width: 1200px;
+    width: 1240px;
+    height: 1754px;
     display: flex;
     flex-direction: row-reverse;
     background: #f3ece3;
@@ -325,13 +330,13 @@ p {
   /* } */
   .Main-content-sections {
     width: 70%;
-    padding: 40px 50px;
+    padding: 50px 50px;
   }
 
   .Main-content-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 27px;
     color: #000000;
     margin-bottom: 10px;
@@ -339,12 +344,13 @@ p {
   /*Abowt me section  */
   .Abowt-me-section {
     margin: 0 0 10px 0;
+    padding: 0 100px 0 0px;
   }
 
   .Abowt-me-profession {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 22px;
     line-height: 17px;
     /* color: #000; */
 
@@ -364,7 +370,7 @@ p {
     text-align: justify;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
   }
@@ -372,6 +378,7 @@ p {
   /*My projects section  */
   .My-projects-section {
     margin: 0 0 10px 0;
+    padding: 0 100px 0 0px;
   }
 
   .My-projects-list {
@@ -389,16 +396,16 @@ p {
     flex-direction: row; */
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
-    /* color: #000; */
+    /* color: #fb6d3a; */
   }
   .My-projects-text {
     display: block;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     margin-left: 5px;
     color: #595959;
@@ -406,7 +413,7 @@ p {
   .My-projects-bracket {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #000000;
   }
@@ -419,16 +426,16 @@ p {
   .My-work-experience-position {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    margin: 0 0 10px 0;
+    margin: 10px 0 10px 0;
     color: #000000;
     /* color: #fb6d3a; */
   }
   .My-work-experience-period {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #a8a8a8;
     margin: 0 0 10px 0;
@@ -444,7 +451,7 @@ p {
   .My-work-experience-duty {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
   }
@@ -463,7 +470,7 @@ p {
   .My-Education-university {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     color: #fb6d3a;
     margin: 0;
@@ -472,15 +479,15 @@ p {
   .My-Education-position {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 0 0 10px 0;
   }
 
   .My-Education-period {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #a8a8a8;
   }
@@ -497,7 +504,7 @@ p {
     background-color: #b2c3bd;
     width: 30%;
     /* width: 370px; */
-    padding: 40px 30px;
+    padding: 40px 40px;
   }
   .Sidebar-photo {
     width: 80%;
@@ -515,7 +522,7 @@ p {
   .Sidebar-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 27px;
     color: #ffffff;
     margin-bottom: 10px;
@@ -528,7 +535,7 @@ p {
     display: flex;
     width: 30%;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #ffffff;
     margin-right: 7px;
@@ -537,9 +544,10 @@ p {
     /* color: #565E6A; */
     width: 70%;
     color: #63666f;
+    color: #000;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     display: flex;
   }
@@ -559,7 +567,7 @@ p {
   .Tech-Skills-item-text {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #ffffff;
   }

@@ -5,7 +5,8 @@ body {
 }
 h3,
 p,
-ol {
+ol,
+div {
   margin: 0;
 }
 a {
@@ -318,7 +319,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .Main-conteiner {
-    width: 210mm;
+    width: 1920px;
     height: 297mm;
     display: flex;
     flex-direction: row-reverse;

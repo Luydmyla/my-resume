@@ -319,7 +319,6 @@ a {
 @media screen and (min-width: 1200px) {
   .Main-conteiner {
     width: 210mm;
-/*       width: 100%; */
     height: 297mm;
     display: flex;
     flex-direction: row-reverse;

@@ -4,7 +4,8 @@ body {
   margin: 0;
 }
 h3,
-p {
+p,
+ol {
   margin: 0;
 }
 a {
@@ -317,8 +318,8 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .Main-conteiner {
-    width: 1240px;
-    height: 1754px;
+    width: 210mm;
+    height: 297mm;
     display: flex;
     flex-direction: row-reverse;
     background: #f3ece3;
@@ -329,60 +330,60 @@ a {
   /* background: #e9dfd2; */
   /* } */
   .Main-content-sections {
-    width: 70%;
-    padding: 50px 50px;
+    width: 80%;
+    padding: 20px 20px;
   }
 
   .Main-content-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 24px;
     color: #000000;
     margin-bottom: 10px;
   }
   /*Abowt me section  */
   .Abowt-me-section {
     margin: 0 0 10px 0;
-    padding: 0 100px 0 0px;
+    padding: 0 10px 0 0px;
   }
 
   .Abowt-me-profession {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 17px;
     /* color: #000; */
 
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
   }
 
   .Abowt-me-name {
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 36px;
+    line-height: 44px;
     color: #000;
-    margin: 0 0 25px 0;
+    margin: 0 0 10px 0;
   }
   .Abowt-me-description {
     width: auto;
     text-align: justify;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #595959;
   }
 
   /*My projects section  */
   .My-projects-section {
     margin: 0 0 10px 0;
-    padding: 0 100px 0 0px;
+    padding: 0 10px 0 0px;
   }
 
   .My-projects-list {
-    padding: 0 0 0 17px;
+    padding: 0 0 0 10px;
   }
 
   .My-projects-item {
@@ -396,8 +397,8 @@ a {
     flex-direction: row; */
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #595959;
     /* color: #fb6d3a; */
   }
@@ -405,16 +406,16 @@ a {
     display: block;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     margin-left: 5px;
     color: #595959;
   }
   .My-projects-bracket {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #000000;
   }
 
@@ -426,7 +427,7 @@ a {
   .My-work-experience-position {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     margin: 10px 0 10px 0;
     color: #000000;
@@ -435,8 +436,8 @@ a {
   .My-work-experience-period {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 14px;
     color: #a8a8a8;
     margin: 0 0 10px 0;
   }
@@ -445,18 +446,18 @@ a {
     margin: 0 10px 0 10px;
   }
   .My-work-experience-duties {
-    padding: 0 100px 0 0px;
-    margin: 0;
+    padding: 0 10px 0 0px;
+    margin: 10px;
   }
   .My-work-experience-duty {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #595959;
   }
   .My-work-experience-company-block {
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
   }
   .My-work-experience-section {
     margin-bottom: 10px;
@@ -470,7 +471,7 @@ a {
   .My-Education-university {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     color: #fb6d3a;
     margin: 0;
@@ -479,16 +480,16 @@ a {
   .My-Education-position {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 16px;
     margin: 0 0 10px 0;
   }
 
   .My-Education-period {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 14px;
     color: #a8a8a8;
   }
 
@@ -502,14 +503,14 @@ a {
     background-color: #a4a9bd;
     /* background-color: #c3cae7; */
     background-color: #b2c3bd;
-    width: 30%;
+    width: 20%;
     /* width: 370px; */
-    padding: 40px 40px;
+    padding: 30px 30px;
   }
   .Sidebar-photo {
     width: 80%;
     border-radius: 25%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .Contact-section,
   .Tech-Skills-section,
@@ -522,8 +523,8 @@ a {
   .Sidebar-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 22px;
     color: #ffffff;
     margin-bottom: 10px;
   }
@@ -535,8 +536,8 @@ a {
     display: flex;
     width: 30%;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #ffffff;
     margin-right: 7px;
   }
@@ -547,8 +548,8 @@ a {
     color: #000;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     display: flex;
   }
 
@@ -557,7 +558,7 @@ a {
     display: flex;
   }
   .Tech-Skills-list {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
     margin: 0 10px 10px 0;
   }
   .Tech-Skills-item {
@@ -567,8 +568,8 @@ a {
   .Tech-Skills-item-text {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #ffffff;
   }
 }
